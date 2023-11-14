@@ -1,0 +1,317 @@
+.align
+{
+    float:right;
+}
+
+.navbar-container
+{
+    width:100%
+}
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    float: right;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+    padding: 10px;
+    text-align:start;
+  }
+  
+  .navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: end;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #1fb3cd;
+  }
+  
+  .home {
+    color: #c0abab;
+    font-size: 24px;
+  }
+  .navbar-container .navbar-nav {
+    justify-content: flex-end;
+  }
+
+  .navbar a{
+    color:white;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+span{
+    display:inline;
+    float :right;
+}
+footer{
+    display:block;
+    clear:both; /*or main{overflow:hidden}*/
+    background-color: hsl(175, 13%, 35%);
+    text-align: center;
+    padding:25px;
+    height:10%;
+}
+.font
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration-color: #7f10da;
+  text-align: center;
+}
+.features-section {
+  padding: 20px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.features-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.features-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-section li {
+  font-size: 16px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.features-section li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.book-now-button .hover {
+ color: rebeccapurple;
+}
+.book-now-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.features-section {
+  padding: 20px 0 0 0;
+}
+
+.testimonials-section {
+  background-color: rgb(208, 91, 150);
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testimonials-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonials-section blockquote {
+  font-size: 16px;
+  padding: 10px;
+  border-left: 5px solid #000;
+}
+.features-section {
+  background-color: #3b192f;
+  padding: 20px;
+}
+
+.features-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.features-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-section li {
+  font-size: 16px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.features-section li i {
+  font-size: 20px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.features-section li p {
+  color: #333;
+}
+
+.features-section li:hover {
+  background-color: #1ef6f2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: black;
+  font-stretch: expanded;
+  
+}
+
+.h2-gradient {
+  background: linear-gradient(to right, #a215de, #FD6585);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.h2-gradient h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1; /* Takes up the remaining space */
+  text-align: center; /* Align the text to the right */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Background color for the text box */
+  border: 1px solid #ccc; /* Border for the text box */
+}
+/* Default styles for the links */
+.nav-link {
+  color: #333; /* Default text color */
+  background-color: transparent; /* Transparent background */
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover styles for the links */
+.nav-link:hover {
+  color: #dd2020; /* Text color on hover */
+  text-shadow: #1fb3cd;
+  text-decoration-line:none;
+  background-color: #ed0fc0; /* Background color on hover */
+  font-size: large;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+homeback
+{
+  background-color: white;
+}
+
+#pad
+{
+  
+  margin-right: 10px;
+}
+
+.features-section li {
+  position: relative; /* Required for absolute positioning of the image */
+  cursor: pointer;
+}
+
+.features-section .feature-image {
+  display: none; /* Initially hide the images */
+  position: absolute;
+  top: 0;
+  left: 60%; /* Adjust as needed */
+  width: 40px; /* Adjust as needed */
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.features-section li:hover .feature-image {
+  display: block; /* Show the image on hover */
+}
+.hotel-imagee
+{
+  width:30%;
+  height: 30%;
+}
+
+
+.hotel-image-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 1; /* Always visible */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hotel-image-container:hover .arrow-button {
+  opacity: 1; /* Show buttons on hover */
+}
+
+.arrow-button.left {
+  left: 10px;
+}
+
+.arrow-button.right {
+  right: 10px;
+}
+
+
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  padding: 20px; /* Add padding for spacing */
+  color:#e616ea
+  
+}
+
+.text-container {
+  flex: 1; /* Takes up the remaining space */
+  text-align: center; /* Center-align the text */
+  background-color: #e627f0; /* Background color for the text box */
+  border: 2px solid #291515; /* Border for the text box */
+  padding: 10px; /* Add padding to the text container */
+  margin: 0 20px; /* Add margin to the left and right */
+  max-width: 800px; /* Limit the maximum width of the container */
+  box-shadow: 0 0 20px rgba(132, 33, 165, 0.842); /* Add a subtle shadow */
+}
+
+.font {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration-color: #7f10da;
+  text-align: center;
+  color: #3b192f;
+}
+
+/* Add some spacing between paragraphs if needed */
+.text-container p {
+  margin-bottom: 10px;
+}

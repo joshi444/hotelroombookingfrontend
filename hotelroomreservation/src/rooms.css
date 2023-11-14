@@ -1,0 +1,63 @@
+.Cad {
+  width: 500px;
+  height:400px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #7614a7;
+  box-shadow: 0 4px 6px rgba(122, 26, 182, 0.1);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+.Card-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card-body {
+  height:300px;
+  padding: 10px;
+}
+
+.Card-body p {
+  margin-top: 10px;
+  
+  padding: 5px 0;
+}
+
+.Card-body p strong {
+  margin-top:20px;
+  display: inline-block;
+  width: 120px;
+  font-size: large;
+}
+
+.myhotels
+{
+background-color: hsla(283, 50%, 80%, 0.915);
+}
+.crd{
+background-color: violet;
+}
+
+.cd{
+background-color: #fb1a86;
+height: 100%;
+}
+
+.bkrm
+{
+  background-color: rgb(167, 185, 200);
+  color:black;
+  border: 2px solid black;
+  width:100px;
+   
+}
+
+.bkrm:hover{
+  background-color: green;
+  font-size: large;
+  color:aliceblue
+  
+}

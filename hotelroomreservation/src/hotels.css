@@ -1,0 +1,164 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #f8eaea;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .card-header {
+    background-color: #d7dcce;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-body p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .card-body p strong {
+    display: inline-block;
+    width: 120px;
+  }
+
+  body {
+    background-color: gray;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-card-top
+  {
+    width:300px;
+    object-fit: contain;
+  }
+
+
+  /* Hotels container */
+.hotels-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Hotels heading */
+.hotels-heading {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Hotel card */
+.Card {
+  width: 500px;
+  
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #7614a7;
+  box-shadow: 0 4px 6px rgba(122, 26, 182, 0.1);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+}
+
+/* Hotel name */
+.hotel-name {
+  font-size: 24px;
+  color: #181616;
+}
+
+/* Hotel info */
+.hotel-info {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #0e0d0d;
+}
+
+/* Rooms link */
+.rooms-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.rooms-link:hover {
+  text-decoration: underline;
+  color: #7614a7;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+/* Hotel name */
+.hotel-name {
+  font-size: 24px;
+  color: #fff; /* Text color for the hotel name */
+  font-weight: bold; /* Make the hotel name bold */
+  background-color: #d212bf; /* Background color for the hotel name */
+  padding: 8px 12px; /* Add padding for a nice background appearance */
+  border-radius: 5px; /* Add rounded corners */
+  margin-bottom: 10px; /* Adjust spacing between hotel names */
+}
+
+/* Hotel name hover effect */
+.hotel-name:hover {
+  background-color: #dac210; /* Change background color on hover */
+  transition: background-color 0.2s ease-in-out; /* Add a smooth transition effect */
+  color:black;
+}
+/* Hotels heading */
+.hotels-heading {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-align: center;
+  padding: 20px 0; /* Add padding top and bottom */
+  background-color: #d212bf; /* Background color for the heading */
+  color: hsl(24, 20%, 95%); /* Text color for the heading */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+/* Hotels heading hover effect */
+.hotels-heading:hover {
+  background-color: #87ec34; /* Change background color on hover */
+  transition: background-color 0.2s ease-in-out; /* Add a smooth transition effect */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black
+}
+.hotel-image {
+  width: 100%; /* Ensure the image fits within the card */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin-bottom: 10px; /* Add spacing below the image */
+  object-fit:fill; /* Maintain aspect ratio and cover the container */
+  
+}
+.myhotels
+{
+  background-color: hsla(283, 50%, 80%, 0.915);
+}

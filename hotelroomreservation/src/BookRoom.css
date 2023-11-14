@@ -1,0 +1,59 @@
+.bgimg {
+    background-image: url("resort.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .brdr {
+    background-color: rgba(246, 237, 244, 0.8)!important;
+    opacity: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 8px rgba(14, 211, 54, 0.5);
+  }
+  .form_room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form_room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .checkin
+  {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(232, 19, 207);
+    
+  }
+
+  .hd
+  {
+    color: #050505;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid purple;
+    background-color: #2ac10c;
+    box-shadow: 2px 2px purple;
+  }

@@ -1,0 +1,35 @@
+.home
+{
+    text-decoration: none;
+    float:right;
+    text-align: end;
+}
+
+ li{
+    list-style-type: none;
+}
+
+.container{
+    position:absolute;
+
+}
+
+  .book-now-button {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white !important; /* Change this to your desired background color */
+}
+
